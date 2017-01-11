@@ -1,0 +1,58 @@
+header{
+    font-size: 3em;
+    font-family: 'Pacifico', cursive;
+}
+
+.main-menu {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu > li {
+    position: relative;
+    display: inline-block;
+    width:15%;
+    margin: 0 5px;
+}
+
+.sub-menu{
+    display: none;
+    position: absolute;
+    list-style: none;
+}
+
+.sub-menu li {
+    padding-top: 10px;
+}
+
+.main-menu h1:hover,
+.sub-menu li:hover{
+    background: #a5a5a5;
+}
+
+.main-menu h1 {
+    display: block;
+    padding: 8px 10px;
+    font-family: 'Indie Flower', cursive;
+    margin: 0 5px;
+}
+
+div{
+    position: fixed;
+    left:75px;
+    top:200px;
+    width:60%;
+    height:60%;
+    display: none;
+    z-index: -10;
+}
+
+img{
+    position: fixed;
+    height:60%;
+    right:50px;
+    top: 200px;;
+    z-index: -11;
+    display: none;
+}
