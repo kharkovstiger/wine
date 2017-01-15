@@ -38,21 +38,22 @@ header{
     margin: 0 5px;
 }
 
-div{
-    position: fixed;
+.text{
+    position: absolute;
     left:75px;
     top:200px;
-    width:60%;
+    width:70%;
     height:60%;
     display: none;
     z-index: -10;
 }
 
-img{
+#map{
     position: fixed;
     height:60%;
+    width: 30%;
     right:50px;
-    top: 200px;;
+    top: 0;
     z-index: -11;
-    display: none;
+    display: block;
 }

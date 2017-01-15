@@ -6,8 +6,10 @@
     <link rel="stylesheet" type="text/css" href="Style/css.css">
     <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="js/textpopup.js"></script>
-
+    <script src="js/textpopup.js" defer></script>
+    <script src="js/raphael.min.js" type="text/javascript"></script>
+    <script src="js/paths.js" defer type="text/javascript"></script>
+    <script src="js/init.js" defer type="text/javascript"></script>
 </head>
 <body>
     <header>Territories of Wine Production</header>
@@ -56,7 +58,7 @@
         </li>
     </ul>
 
-    <div class="history Italy">
+    <div class="history Italy text">
         <p>Favorable natural conditions of the peninsula contributed to the cultivation of grapes and winemaking since
             ancient times. The ancient Greeks south-eastern part of the peninsula was called Enotria , what was done,
             according to some assumptions, the Greek οἶνος , « wine ", as the country was rich in vineyards . Due to
@@ -83,7 +85,7 @@
             Wine and Wine Organization (OIV), as of 2006 Italy among the world's producers was in second place with a
             volume of 520.36 million in. Dal.</p></div>
 
-    <div class="brands Italy">
+    <div class="brands Italy text">
         <ul>
             <li>Amarone della Valpolicella</li>
             <li>Bardolino Superiore</li>
@@ -98,21 +100,23 @@
         </ul>
     </div>
 
-    <img class="Italy" src="images/italy.png" alt="Map of Italy">
+    <!--<img class="Italy" src="images/italy.png" alt="Map of Italy">-->
 
-    <div class="history France"></div>
-    <div class="brands France"></div>
+    <div id="map"></div>
 
-    <div class="history Argentina"></div>
-    <div class="brands Argentina"></div>
+    <div class="history France text"></div>
+    <div class="brands France text"></div>
 
-    <div class="history Spain"></div>
-    <div class="brands Spain"></div>
+    <div class="history Argentina text"></div>
+    <div class="brands Argentina text"></div>
 
-    <div class="history Crimea"></div>
-    <div class="brands Crimea"></div>
+    <div class="history Spain text"></div>
+    <div class="brands Spain text"></div>
 
-    <div class="history Georgia"></div>
-    <div class="brands Georgia"></div>
+    <div class="history Crimea text"></div>
+    <div class="brands Crimea text"></div>
+
+    <div class="history Georgia text"></div>
+    <div class="brands Georgia text"></div>
 </body>
 </html>
